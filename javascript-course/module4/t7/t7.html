@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Route to Karaportti 2</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    crossorigin=""
+  >
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    crossorigin=""
+  ></script>
+
+  <script src="t7.js" defer></script>
+
+  <style>
+    #map {
+      height: 500px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Route to Karaportti 2</h1>
+
+<form id="route-form">
+  <input id="address" type="text" placeholder="Enter your address">
+  <button type="submit">Search route</button>
+</form>
+
+<p id="times"></p>
+
+<div id="map"></div>
+
+</body>
+</html>
